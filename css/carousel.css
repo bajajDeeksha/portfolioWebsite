@@ -1,0 +1,32 @@
+.client-img {
+    width: 175px;
+    height: 175px;
+    border-radius: 140px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .275);
+    padding: 7px;
+}
+
+.testi-content {
+    color: #3f3f3f;
+}
+
+
+.section-padding {
+    padding: 90px 0;
+}
+
+.carousel-control i.fa {
+    position: absolute;
+    top: 1.5em;
+}
+
+.carousel-inner > .item > img {
+    z-index: 1045;
+    opacity: 2;
+    max-height: 72vh;
+    max-width: 90vw;
+}
+
+.img-carousel {
+    top: 14vh; 
+}

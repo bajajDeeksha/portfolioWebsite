@@ -51,7 +51,7 @@ hr.line-separator{
     }
 
     .navbar-fixed-top .navbar-brand {
-        font-size: 25px;
+        font-size: 20px;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -221,6 +221,11 @@ section#refernce p {
     position: relative;
     margin: 0 auto;
     max-width: 350px;
+}
+
+#portfolio .portfolio-item .portfolio-link img{
+    width: 366px;
+    height: 266px;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {

@@ -4,6 +4,22 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+//displaying stars
+$.fn.stars = function() {
+    return $(this).each(function() {
+        var rating = $(this).data("rating");
+        var numStars = $(this).data("numStars");
+        var fullStar = new Array(Math.floor(rating + 1)).join('<i class="fa fa-star"></i>');
+        var halfStar = ((rating%1) !== 0) ? '<i class="fa fa-star-half-empty"></i>': '';
+        var noStar = new Array(Math.floor(numStars + 1 - rating)).join('<i class="fa fa-star-o"></i>');
+        $(this).html(fullStar + halfStar + noStar);
+    });
+}
+$( document ).ready(function() {
+            $('span.stars').stars();
+        });
+
+
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('body').on('click', '.page-scroll a', function(event) {
