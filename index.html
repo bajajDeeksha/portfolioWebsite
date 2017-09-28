@@ -16,22 +16,17 @@
     <!-- Custom CSS -->
     <link href="css/carousel.css" rel="stylesheet">
     <link href="css/freelancer.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    
+    <link href="css/slick-theme.css" rel="stylesheet">
+    <link href="css/slick.css" rel="stylesheet">
+
     <!-- font Awesome -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
 
     <!-- icon -->
     <link rel="icon" type="image/png" href="img/db-logo.png">
-    
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" type="text/css" />
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 </head>
 
-<body id="page-top" class="index">
+<body id="page" class="index">
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
@@ -76,7 +71,7 @@
     </nav>
 
     <!-- TOP PAGE -->
-    <section id="page-top">
+    <section id="page-top" class="bg-white">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -92,7 +87,7 @@
                         <strong>Name:</strong>
                         Deeksha Bajaj<br />
                         <strong>Age:</strong>
-                        23 years<br />
+                        24 years<br />
                         <strong>Location:</strong>
                         Tokyo, Japan<br/>
                         <strong>Nationality:</strong>
@@ -109,7 +104,7 @@
     </section>
     
     <!-- About me grid section-->
-    <section id="aboutme">
+    <section id="aboutme" class="bg-white">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -128,7 +123,7 @@
     </section>
     
     <!-- Experience Grid Section -->
-    <section id="portfolio">
+    <section id="portfolio" class="bg-white">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -138,103 +133,163 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <p><strong>Wedding Website for Nish$geet</strong><br/>
-                                Tags : JavaScript, php, HTML5, CSS3, Bootstrap, photoshop, UI Design</p>
+                <h3 class="experience-head">Company Experience:</h3>
+                <div class="center">
+                    <div class="col-md-4 portfolio-item">
+                        <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <p>
+                                        <strong>C.M. Phoenix</strong><br/>
+                                        1/3rd Residence <br/>
+                                        Tags : HTML5, CSS3, PHP, jQuery, Bootstrap, AJAX, Magento, WIX, Stripe Payment Gateway, mysql, Photoshop, UI Design
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-                        <img src="img/portfolio/port1.png" class="img-responsive" alt="">
-                    </a>
+                            <img src="img/portfolio/port10.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-4 portfolio-item">
+                        <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <p><strong>Pactera Technology Japan</strong><br/>
+                                        Tags : Javascript, Software Testing, Drupal, Innoveo, AEM, php, HTML5, CSS3</p>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/port2.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <p><strong>Skillhouse, Client: Daijob.com</strong><br/>
+                                        Tags : jQuery, HTML5, CSS3, MVC framework, Bootstrap</p>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/port4.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <p><strong>PasonaTech, Client:tenso.com</strong><br/>
+                                        Tags : php, HTML5, CSS3, MVC framework, Bootstrap, jQuery, Javascript, smarty</p>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/port5.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <p><strong> ChatWork-Bitbucket Integration</strong><br/>
+                                        Tags : Shell Scripting, Git (version control system), bitBucket</p>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/port6.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
                 </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <p><strong>Pactera Technology Japan</strong><br/>
-                                Tags : Javascript, testing, drupal, Innoveo, AEM, php, HTML5, CSS3</p>
+            </div>
+            <div class="row">
+                <h3 class="experience-head">Freelancing Experience:</h3>
+                <div class="center">
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <p><strong>Baycare</strong><br/>
+                                        Tags : HTML5, CSS3, jquery, php, AJAX, Bootstrap, Photoshop, UI Design, mysql</p>
+                                </div>
                             </div>
-                        </div>
-                        <img src="img/portfolio/port2.png" class="img-responsive" alt="">
-                    </a>
+                            <img src="img/portfolio/port13.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <p><strong>Zaika Restaurant</strong><br/>
+                                        Tags : HTML5, CSS3, jquery, php, AJAX, Bootstrap, Photoshop, UI Design</p>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/port12.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <p><strong>Asahi Service Company</strong><br/>
+                                        Tags : jQuery, php, HTML5, CSS3, Bootstrap, Photoshop, UI Design, AJAX, mysql</p>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/port11.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <p><strong>Wedding Website for Nish & Geet</strong><br/>
+                                        Tags : jQuery, php, HTML5, CSS3, Bootstrap, Photoshop, UI Design, AJAX</p>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/port1.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal10" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <p><strong>Pelicamera</strong><br/>
+                                        Tags : Javascript, jQuery, php, HTML5, CSS3, Bootstrap, photoshop, UI Design</p>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/port3.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
                 </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <p><strong>Pelicamera</strong><br/>
-                                Tags : Javascript, jQuery, php, HTML5, CSS3, Bootstrap, photoshop, UI Design</p>
+            </div>
+            <div class="row">
+                <h3 class="experience-head">Internships and Projects:</h3>
+                <div class="center1">
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal11" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <p><strong>Website  Module  development  for  “Online  Application for Need Base Training”</strong><br/>
+                                        Tags : HTML4, Microsoft Access, ColdFusion</p>
+                                </div>
                             </div>
-                        </div>
-                        <img src="img/portfolio/port3.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <p><strong>SkillHouse, Client: Daijob.com</strong><br/>
-                                Tags : jQuery, HTML5, CSS3, MVC framework, Bootstrap</p>
+                            <img src="img/portfolio/port7.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal12" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <p><strong>Cross-Lingual Search Engine</strong><br/>
+                                        Tags : Python, HTML5, CSS3, php, javascript</p>
+                                </div>
                             </div>
-                        </div>
-                        <img src="img/portfolio/port4.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <p><strong>PasonaTech, Client:tenso.com</strong><br/>
-                                Tags : php, HTML5, CSS3, MVC framework, Bootstrap, jQuery, Javascript, smarty</p>
+                            <img src="img/portfolio/port8.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal13" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <p><strong>Survey  on  Cloud  Computing in Agricultural Development</strong><br/></p>
+                                </div>
                             </div>
-                        </div>
-                        <img src="img/portfolio/port5.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <p><strong> ChatWork-Bitbucket Integration</strong><br/>
-                                Tags : Shell Scripting, Git (version control system), bitBucket</p>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/port6.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <p><strong>Website  Module  development  for  “Online  Application for Need Base Training”</strong><br/>
-                                Tags : HTML4, Microsoft Access, ColdFusion</p>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/port7.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <p><strong>Cross-Lingual Search Engine</strong><br/>
-                                Tags : Python, HTML5, CSS3, php, javascript</p>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/port8.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <p><strong>Survey  on  Cloud  Computing in Agricultural Development</strong><br/></p>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/port9.png" class="img-responsive" alt="">
-                    </a>
+                            <img src="img/portfolio/port9.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -274,50 +329,58 @@
                             <div class="col-xs-6"><p>Shell Scripting</p></div>
                             <div class="col-xs-6"><span class="stars" data-rating="4" data-num-stars="5" ></span></div>
                         </div>
-                        <div class="col-xs-12 highlight">  
-                            <div class="col-xs-6"><p>C/C++</p></div>
+                        <div class="col-xs-12 highlight">
+                            <div class="col-xs-6"><p>JQuery</p></div>
                             <div class="col-xs-6"><span class="stars" data-rating="4" data-num-stars="5" ></span></div>
                         </div>
                         <div class="col-xs-12 highlight">
-                            <div class="col-xs-6"><p>JQuery</p></div>
-                            <div class="col-xs-6"><span class="stars" data-rating="3.8" data-num-stars="5" ></span></div>
-                        </div>
-                        <div class="col-xs-12 highlight">    
                             <div class="col-xs-6"><p>JavaScript</p></div>
-                            <div class="col-xs-6"><span class="stars" data-rating="3.5" data-num-stars="5" ></span></div>
+                            <div class="col-xs-6"><span class="stars" data-rating="3" data-num-stars="5" ></span></div>
+                        </div>
+                        <div class="col-xs-12 highlight">
+                            <div class="col-xs-6"><p>AJAX</p></div>
+                            <div class="col-xs-6"><span class="stars" data-rating="3" data-num-stars="5" ></span></div>
+                        </div>
+                        <div class="col-xs-12 highlight">
+                            <div class="col-xs-6"><p>SASS / SCSS</p></div>
+                            <div class="col-xs-6"><span class="stars" data-rating="3" data-num-stars="5" ></span></div>
                         </div>
                     </div>
                     <div class="col-sm-6">
+                        <div class="col-xs-12 highlight">
+                            <div class="col-xs-6"><p>C/C++</p></div>
+                            <div class="col-xs-6"><span class="stars" data-rating="3" data-num-stars="5" ></span></div>
+                        </div>
                         <div class="col-xs-12 highlight">    
                             <div class="col-xs-6"><p>ReactJS</p></div>
                             <div class="col-xs-6"><span class="stars" data-rating="3" data-num-stars="5" ></span></div>
                         </div>
                         <div class="col-xs-12 highlight">
-                            <div class="col-xs-6"><p>Wordpress</p></div>
+                            <div class="col-xs-6"><p>Magento</p></div>
                             <div class="col-xs-6"><span class="stars" data-rating="3" data-num-stars="5" ></span></div>
                         </div>
                         <div class="col-xs-12 highlight">
-                            <div class="col-xs-6"><p>Drupal</p></div>
+                            <div class="col-xs-6"><p>SEO</p></div>
                             <div class="col-xs-6"><span class="stars" data-rating="3" data-num-stars="5" ></span></div>
                         </div>
                         <div class="col-xs-12 highlight">
                             <div class="col-xs-6"><p>MVC FrameWork</p></div>
                             <div class="col-xs-6"><span class="stars" data-rating="3" data-num-stars="5" ></span></div>
                         </div>
-                        <div class="col-xs-12 highlight">   
-                            <div class="col-xs-6"><p>Python</p></div>
-                            <div class="col-xs-6"><span class="stars" data-rating="2.5" data-num-stars="5" ></span></div>
-                        </div>
-                        <div class="col-xs-12 highlight">    
-                            <div class="col-xs-6"><p>AngularJS</p></div>
+                        <div class="col-xs-12 highlight">
+                            <div class="col-xs-6"><p>Wordpress</p></div>
                             <div class="col-xs-6"><span class="stars" data-rating="2" data-num-stars="5" ></span></div>
                         </div>
                         <div class="col-xs-12 highlight">
-                            <div class="col-xs-6"><p>Java</p></div>
+                            <div class="col-xs-6"><p>Drupal</p></div>
+                            <div class="col-xs-6"><span class="stars" data-rating="2" data-num-stars="5" ></span></div>
+                        </div>
+                        <div class="col-xs-12 highlight">   
+                            <div class="col-xs-6"><p>Python</p></div>
                             <div class="col-xs-6"><span class="stars" data-rating="1" data-num-stars="5" ></span></div>
                         </div>
                         <div class="col-xs-12 highlight">    
-                            <div class="col-xs-6"><p>Swift Programmings</p></div>
+                            <div class="col-xs-6"><p>AngularJS</p></div>
                             <div class="col-xs-6"><span class="stars" data-rating="1" data-num-stars="5" ></span></div>
                         </div>
                     </div>    
@@ -405,7 +468,7 @@
     </section>
     
     <!-- Education grid section -->
-    <section id="education">
+    <section id="education" class="bg-white">
         <div class="container" >
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -426,7 +489,7 @@
                             Course: Senior Secondary<br/>
                             Percentage: 73.3<br/>
                             Place: Kaiga, Karnataka, India<br/>
-                            <i class="fa fa-link"><a href="http://aecskaiga.in/" target="_blank">http://aecskaiga.in/</a></i>
+                            <i class="fa fa-link"></i><a href="http://aecskaiga.in/" target="_blank">http://aecskaiga.in/</a>
                         </p>          
                     </div>
                 </div>
@@ -441,7 +504,7 @@
                             Course: Bachelors-Computer Science and Engineering<br/>
                             Percentage: 63.4<br/>
                             Place: Belgaum, Karnataka, India<br/>
-                            <i class="fa fa-link"><a href="http://www.git.edu/" target="_blank">http://www.git.edu/</a></i>
+                            <i class="fa fa-link"></i><a href="http://www.git.edu/" target="_blank">http://www.git.edu/</a>
                         </p>
                         
                     </div>
@@ -457,7 +520,7 @@
                             Course:Japanese Language<br/>
                             Cleared:JLPT N4<br/>
                             Place:Shinjuku, Tokyo, Japan<br/>
-                            <i class="fa fa-link"><a href="http://tcj-jp.com/jpn/" target="_blank">http://tcj-jp.com/jpn/</a></i>
+                            <i class="fa fa-link"></i><a href="http://tcj-jp.com/jpn/" target="_blank">http://tcj-jp.com/jpn/</a>
                         </p>
                     </div>
                 </div>
@@ -509,7 +572,7 @@
     </section>
     
     <!-- Reference grid section -->
-    <section id="refernce">
+    <section id="refernce" class="bg-white">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -525,10 +588,7 @@
                     <div class="item active">
                         <div class="carousel-caption">
                             <div class="row">
-                                <div class="col-lg-4">
-                                    <img class="client-img" src="img/reference/rossa175.png">
-                                </div>
-                                <div class="col-lg-8 testi-content">
+                                <div class="testi-content">
                                     <p>"Deeksha has gained a lot of experience from living and working in Japan, where her keen understanding of computer programming, especially in web development keeps her on top of her game. She is curious to learn new things and has fresh ideas people often miss."</p>
                                     <h3><strong>- Rossa Dipoyono</strong>, Software Developer, tenso.com</h3>
                                 </div>
@@ -538,10 +598,7 @@
                     <div class="item">
                         <div class="carousel-caption">
                             <div class="row">
-                                <div class="col-lg-4">
-                                    <img class="client-img" src="img/reference/kuldeep175.png">
-                                </div>
-                                <div class="col-lg-8 testi-content">
+                                <div class="testi-content">
                                     <p>"In my opinion Deeksha has always been a student with a clear head and rational thinking. She has a positive attitude towards life with a strong will to succeed in whatever she is pursuing. She has good management skills and has a clear understanding of balancing the activities very well. In spite of participating actively in the extra- curricular activities whole heartedly, she maintained the grades throughout her Engineering degree curriculum. I am sure a student like Deeksha will be an asset."</p>
                                     <h3><strong>- Kuldeep Sambrekar</strong>, Assistant  Professor, Dept of CS, KLS GIT </h3>
                                 </div>
@@ -551,10 +608,7 @@
                     <div class="item">
                         <div class="carousel-caption">
                             <div class="row">
-                                <div class="col-lg-4">
-                                    <img class="client-img" src="img/reference/karuna175.png">
-                                </div>
-                                <div class="col-lg-8 testi-content">
+                                <div class="testi-content">
                                     <p>"I have know Deeksha for 5 years now, as a friend and as a team mate. She works pro-actively, and in a timely manner. She is a quick learner, very-cooperative, punctual, reliable and hard-working. She holds good technical skills. As a person she is very kind and always be willing to help others."</p>
                                     <h3><strong>- Karuna Patil</strong>, Project Partner</h3>
                                 </div>
@@ -562,15 +616,15 @@
                         </div>
                     </div>
                 </div>
-                <a class="left carousel-control" href="#testimonials" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#testimonials" role="button" data-slide="next">
-                      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                      <span class="sr-only">Next</span>
-                </a>
             </div>
+            <a class="left carousel-control" href="#testimonials" role="button" data-slide="prev">
+                <span><i class="fa fa-chevron-left" aria-hidden="true"></i></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#testimonials" role="button" data-slide="next">
+                <span><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
     </section>
 
@@ -595,6 +649,7 @@
     </div>
     
     <!-- Portfolio Modals -->
+    <!-- one third -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -607,16 +662,43 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Wedding Website</h2>
+                            <h2>C. M. Phoenix</h2>
                             <hr class="line-seprator">
-                            
-                            <p align="center">.</p> 
-                            <p><strong>Duration :</strong> October 2016 </p>
-                         
-                            <p><strong>Main Responsibility : </strong></p>
-                            <p class="tab"> To design and developed a wedding website for Nishyanth and Geetika. The Website contains information about the bride and the groom, cermonies, RSVP form and gallery with the couple's happy pictures.</p>
-                            <p><strong>Technologies :</strong> javascript, php, HTML5, CSS3, Bootstrap, UI Design, photoshop</p>
-                            <p class="ref"><i class="fa fa-link"><a href="http://nishandgeet.com/" target="_blank"> Click here to view the website </a></i></p>
+                            <p>I finished these projects as a part of 1/3rd Residence Group.</p>
+                            <p><strong>Duration :</strong> January 2017 - Present </p>
+
+                            <h4>Tokyo Rental Apartments</h4>
+                            <p> The website is still under Beta version undergoing Testing. </p>
+                            <p><strong>Duration :</strong> January 2017 - Present </p>
+                            <p><strong>Main Responsibility :</strong> To design and develop an online portal that allows users to look for services apartments in and around tokyo for for vacation or mid term rentals. A user can also upload an open house to give it for rent. </p>
+                            <p><strong>Technologies :</strong> Magento </p>
+                            <p class="ref"><i class="fa fa-link"></i><a href="http://www.tokyorentalapartments.com/" target="_blank"> Click here to view the website </a></p>
+                            <p class="note">The website is still under Beta version undergoing Testing</p>
+
+                            <h4>Kafe - Furniture Website</h4>
+                            <p><strong>Duration :</strong> June 2017 - July 2017</p>
+                            <p><strong>Main Responsibility :</strong> To design and develop a furniture website.  </p>
+                            <p><strong>Technologies :</strong>jQuery, php, HTML5, CSS3, Bootstrap, UI Design, photoshop, AJAX</p>
+                            <p class="ref"><i class="fa fa-link"></i><a href="http://www.kafe.co.jp/" target="_blank"> Click here to view the website </a></p>
+
+                            <h4>1-3rd Booking Reservation</h4>
+                            <p><strong>Duration :</strong> March 2017 - April 2017</p>
+                            <p><strong>Main Responsibility :</strong> To develop an online reservation system for 1-3rd services Apartments. The system is integrated with <a href="https://sirvoy.com/" target="_blank"> Sirvoy</a>, an hotel management tool. The website is developed in 3 different languages. <br/> The website is constantly updated according to the latest campaign and discounts deals.</p>
+                            <p><strong>Technologies :</strong> jQuery, php, HTML5, CSS3, Bootstrap, UI Design </p>
+                            <p class="ref"><i class="fa fa-link"></i><a href="http://hpwing.jp/" target="_blank"> Click here to view the website </a></p>
+
+                            <h4>1-3rd Payment Portal</h4>
+                            <p><strong>Duration :</strong> August 2017 </p>
+                            <p><strong>Main Responsibility :</strong> To create an Admin Panel that allows the non-technical staff to make a reservation ( received via phone, email inquiry, facebook etc..) using a form. On submitting the form details, a link is automatically generated and sent to the respective guest. The link allows the user to go through their booking details and online payment options. Upon payment, an automated confirmation email is sent to the user and back to us. <br/> The system is made integrating with <a href="http://www.kafe.co.jp/" target="_blank"> Stripe Payment Gateway</a>.<br/> The system was redesigned to send payment links for share cafe events ( TSC ). </p>
+                            <p><strong>Technologies :</strong> jQuery, PHP, HTML5, CSS3, Bootstrap, UI Design, photoshop, mysql </p>
+                            <p class="note">The code of this applications are strictly copyrighted &COPY; by the company.</p>
+
+                            <h4>1-3rd Residence</h4>
+                            <p><strong>Main Responsibility :</strong> To maintain WIX created company websites. </p>
+                            <p><strong>Technologies :</strong> WIX, UI Design, Photoshop </p>
+                            <p class="ref"><i class="fa fa-link"></i><a href="https://www.1-3rd.com/" target="_blank"> https://www.1-3rd.com/ </a></p>
+                            <p class="ref"><i class="fa fa-link"></i><a href="https://www.tokyosharecafe.com/" target="_blank"> https://www.tokyosharecafe.com/ </a></p>
+
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -624,6 +706,7 @@
             </div>
         </div>
     </div>
+    <!-- Pactera -->
     <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -638,24 +721,31 @@
                         <div class="modal-body">
                             <h2>Pactera Technology Japan</h2>
                             <hr class="line-seprator">
-                            <p><strong>Duration :</strong> May 2016 - present</p>
-                            
+
+                            <p> I finished these projects working for <a href="http://www.pactera.com/en" target="_blank">Pactera Technology Japan</a> </p>
+                            <h4>Demo Website Creation</h4>
+                            <p><strong>Duration :</strong> October 2016 - December 2016</p>
+                            <p><strong>Main Responsibility :</strong> Training in CakePHP. Creating a demo Website for client using CakePHP. </p>
+                            <p><strong>Technologies :</strong> CakePHP, Docker, HTML, CSS, jQuery</p>
+                            <p class="note">The code of this applications are strictly copyrighted &COPY; by the company.</p>
+
                             <h4>Adobe Experience Manager</h4>
                             <p><strong>Duration :</strong> October 2016 ( 3 Weeks )</p>
                             <p><strong>Main Responsibility :</strong> Training in Adobe Experience Manager. Creating templates and components using AEM. </p>
                             <p><strong>Technologies :</strong>AEM, Eclipse</p>
+                            <p class="note">The code of this applications are strictly copyrighted &COPY; by the company.</p>
 
                             <h4>SBI BITS, JAPAN</h4>
-                            <p align="center">I finished following projects as a part of<a href="https://www.sbisec.co.jp/"  target="_blank"> SBI BITS</a> team while working for <a href="http://www.pactera.com/en" target="_blank">Pactera</a>.</p> 
+                            <p align="center">I finished following projects as a part of<a href="https://www.sbisec.co.jp/"  target="_blank"> SBI BITS</a> team while working for <a href="http://www.pactera.com/en" target="_blank">Pactera</a>.</p>
                             <p><strong>Duration :</strong> July 2016 - September 2016</p>
-                            <p><strong>Main Responsibility :</strong> To automation test the stock system under construction using LetIT. </br> LetIT was a system created using selenium to automate the testing by non-technical staff</p>
-                            <p><strong>Technologies :</strong> Javascript, selenium, Excel, Java(basic), System Architechture.</p>
-                           
-                            <h4>Innoveo - Drupal</h4> 
+                            <p><strong>Main Responsibility :</strong> To automate test the stock system under construction using LetIT. LetIT was a system created using selenium to automate the testing by non-technical staff. </p>
+                            <p><strong>Technologies :</strong> Javascript, selenium, Excel, Java(basic), System Architecture.</p>
+                            <p class="note">The code of this applications are strictly copyrighted &COPY; by the company.</p>
+
+                            <h4>Innoveo - Drupal</h4>
                             <p><strong>Duration :</strong> May 2016 - June 2016 </p>
-                            <p><strong>Main Responsibility :</strong> To created a Innoveo System for Insurance companies based in Japan. </br> Innoveo Skye is a web-based insurance innovation solution with intuitive customization options that function on any platform, offering unprecedented levels of user-friendliness, scalability and cost-effectiveness. Benefit from Swiss efficiency and state-of-the-art technology, and get our unique single integrated sales and distribution software working for you.</p>
+                            <p><strong>Main Responsibility :</strong> To create a Innoveo System for Insurance companies based in Japan. </br> Innoveo Skye is a web-based insurance innovation solution with intuitive customization options that function on any platform, offering unprecedented levels of user-friendliness, scalability and cost-effectiveness. Benefit from Swiss efficiency and state-of-the-art technology, and get our unique single integrated sales and distribution software working for you.</p>
                             <p><strong>Technologies :</strong> Drupal, Innoveo</p>
-                            
                             <p class="note">The code of this applications are strictly copyrighted &COPY; by the company.</p>
                             
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -665,6 +755,7 @@
             </div>
        </div>
     </div>
+    <!-- daijob -->
     <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -677,23 +768,22 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Pelicamera Photography</h2>
+                            <h2>Skillhouse, Client: Daijob.com</h2>
                             <hr class="line-seprator">
-                            
-                            <p align="center"></p> 
-                            <p><strong>Duration :</strong> June 2016 </p>
-                         
-                            <p><strong>Main Responsibility : </strong></p>
-                            <p class="tab"> To design and develope a photographers portfolio. The website contains details about the photographer, galleries, testimonials from the clients, different packages details, and contact/booking forms for the customers. </p>
-                            <p><strong>Technologies :</strong> Javascript, jquery, php, HTML5, CSS3, Bootstrap, UI Design</p>
-                            <p class="ref"><i class="fa fa-link"><a href="http://pelicamera.com/"  target="_blank">Click here to view the website</a></i></p>
+                            <p align="center">I finished following projects as a part of<a href="http://corp.daijob.com/en"  target="_blank"> Daijob</a>.</p> 
+                            <p><strong>Duration :</strong> December 2015 - April 2016 </p>
+                            <p><strong>Main Responsibility : </strong>A project based position of a Front End Developer to devlope resposive webpages according to the .psd files for the given website.</p>
+                            <p><strong>Technologies : </strong>HTML5, CSS3, Bootstrap, jQuery </p>
+                            <p class="ref"><i class="fa fa-link"></i><a href="https://workingabroad.daijob.com/en/" target="_blank"> Click here to view the website </a></p>
+                            <p class="note">The code of this application is strictly copyrighted &COPY; by Daijob.com</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
+                        </div>  
                     </div>
                 </div>
             </div>
-        </div>
+       </div>
     </div>
+    <!-- pasonatech -->
     <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -709,48 +799,19 @@
                             <h2>PasonaTech (Client: tenso.Com)</h2>
                             <hr class="line-seprator">
                             
-                            <p align="center">I finished following projects as a part of<a href="http://corp.daijob.com/en"  target="_blank"> Daijob</a>.</p> 
-                            <p><strong>Duration :</strong> December 2015 - April 2016 </p>
-                            <p><strong>Main Responsibility : </strong>A project based position of a Front End Developer to devlope resposive webpages according to the .psd files for the given website.</p>
-                            <p><strong>Technologies : </strong>HTML5, CSS3, Bootstrap, jQuery </p>
-                            
-                            <p class="ref"><i class="fa fa-link"><a href="https://workingabroad.daijob.com/en/" target="_blank"> Click here to view the website </a></i></p>
-
-                            <p class="note">The code of this application is strictly copyrighted &COPY; by Daijob.com</p>
-                            
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>  
-                    </div>
-                </div>
-            </div>
-       </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>PasonaTech (Client: tenso.Com)</h2>
-                            <hr class="line-seprator">
-                            
                             <p align="center">I finished following projects as a part of<a href="http://www.tenso.com"  target="_blank"> tenso.com</a> team while working for <a href="http://www.pasonatech.co.jp" target="_blank">PasonaTech</a>.</p> 
-                            <p><strong>Duration :</strong> February 2015 - present </p>
-                            <h4>1. tenso.com : Coupon Page</h4>
-                            <p><strong>Main Responsibility : </strong>To design and develop a responsive module which provides tenso-users with all the coupon information that are available to them. The page displays Inactive, Available, Unavailable and Expired coupons in two different tables with their respective information. This page is linked to the tenso website through its main page.<br/><br/>
-                            <strong>Technologies : </strong>php, HTML5, CSS3, Model-view-Controller, Bootstrap, Git (version-control-system)</p>
-                           
-                            <h4>2. tenso.com : Creating Responsive pages</h4> 
-                            <p><strong>Main Responsibility : </strong>To make already existing pages Responsive and compatible for different size of screens and different languages. <br/><br/>
-                            <strong>Technologies : </strong>HTML5, CSS3, Bootstrap, Grid System, Git (version-control-system)</p>
-                            
-                            <p class="note">The code of this application is strictly copyrighted &COPY; by tenso.com.</p>
+
+                            <h4>tenso.com : Coupon Page</h4>
+                            <p><strong>Duration :</strong> September 2015 - November 2015 </p>
+                            <p><strong>Main Responsibility : </strong>To design and develop a responsive module which provides tenso-users with all the coupon information that are available to them. The page displays Inactive, Available, Unavailable and Expired coupons in two different tables with their respective information. This page is linked to the tenso website through its main page.</p>
+                            <p><strong>Technologies : </strong>php, HTML5, CSS3, Model-view-Controller, Bootstrap, Git (version-control-system)</p>
+                            <p class="note">The code of this application is strictly copyrighted by the company</p>
+
+                            <h4>tenso.com : Creating Responsive pages</h4>
+                            <p><strong>Duration :</strong> May 2015 - September 2015 </p>
+                            <p><strong>Main Responsibility : </strong>To make already existing pages Responsive and compatible for different size of screens and different languages. </p>
+                            <p><strong>Technologies : </strong>HTML5, CSS3, Bootstrap, Grid System, Git (version-control-system)</p>
+                            <p class="note">The code of this application is strictly copyrighted by the company</p>
                             
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>  
@@ -759,7 +820,8 @@
             </div>
        </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- pasonatech -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -774,19 +836,15 @@
                             <h2> ChatWork - Bitbucket Integration</h2>
                             <hr class="line-seprator">
                             
-                            <p align="center">I finished this projects as a part of<a href="http://www.tenso.com" target="_blank"> tenso.com</a> Team while working for <a href="http://www.pasonatech.co.jp" target="_blank">PasonaTech</a>.</p> 
-                            <p><strong>Duration :</strong> February 2015 - present </p>
-                            <h4> What is ChatWork ?</h4>
-                            <p>ChatWork is a business chat app that makes collaborative teamwork more efficient. It brings together text, voice and video chat with task management and file sharing, all in one convenient place. It can turn a contact into a connection with one click, or transform tasks into teamwork. ChatWork works with most modern Web browsers and requires no additional software to install.</p>
-                            <h4> What is Bitbucket ?</h4>
-                            <p>Bitbucket is a web-based hosting service for projects that use either the Mercurial (since launch) or Git revision control systems. Bitbucket offers both commercial plans and free accounts. It offers free accounts with an unlimited number of private repository. Bitbucket is written in Python using the Django web framework.</p>
+                            <p align="center">I finished this projects as a part of<a href="http://www.tenso.com" target="_blank"> tenso.com</a> team while working for <a href="http://www.pasonatech.co.jp" target="_blank">PasonaTech</a>.</p>
+                            <p><strong>Duration :</strong> February 2015 - May 2015 </p>
                             <p><strong>Main Responsibility : </strong> </p>
                             <p class="tab">1. Creating a integration of these 2 applications. This application should notify all the team members whenever there is a chnage in the repository. The Application provides information such as branch name, date and time, commit message.</p>
                             <p class="tab">2. It also notifies specific user, if there is a conflict that has occurred.</p>
                             <p class="tab">3. Creating a shell Script which runs and installs this application within desired Git repository.</p>
                             <p><strong>Technologies : </strong>shell Scripting, Git (version-control-system), ChatWork API</p>
                             
-                            <p class="note">The code of this application is strictly copyrighted &COPY; by tenso.com.</p>
+                            <p class="note">The code of this application is strictly copyrighted by the company</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -794,7 +852,160 @@
             </div>
         </div>
     </div>
+
+    <!-- BayCare Project -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Baycare Project</h2>
+                            <hr class="line-seprator">
+
+                            <p align="center">Baycare project - The project is under condition. </p>
+                            <p><strong>Duration :</strong> September 2017 </p>
+
+                            <p><strong>Main Responsibility : </strong> To design and developed a portal website for Baycare. The website contains information of some of the top care giving companies and gives the user a platform to choose from the best fitted options available. The pro provides admin to add, delete, edit care giving companies.</p>
+                            <p><strong>Technologies :</strong> jQuery, php, HTML5, CSS3, Bootstrap, UI Design, photoshop, AJAX</p>
+                            <p class="ref"><i class="fa fa-link"></i><a href="https://github.com/bajajDeeksha/zaika" target="_blank"> Click to check code on GitHub </a></p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Zaika Project -->
     <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Zaika Restaurant</h2>
+                            <hr class="line-seprator">
+
+                            <p align="center">A website for Zaika Restaurant. - The project is under construction. </p>
+                            <p><strong>Duration :</strong> October 2017 </p>
+
+                            <p><strong>Main Responsibility : </strong> To design and developed a Zaika Restaurant. The website contains information about the menu, booking reservation forms, restaurant services, testimonials, information of home delivery and takeout options, etc. The website is available in 2 different languages: English and Japanese. </p>
+                            <p><strong>Technologies :</strong> jQuery, php, HTML5, CSS3, Bootstrap, UI Design, photoshop, AJAX, Logo Design</p>
+                            <p class="ref"><i class="fa fa-link"></i><a href="https://github.com/bajajDeeksha/zaika" target="_blank"> Click to check code on GitHub </a></p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- asahi service company -->
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Asahi Service Company</h2>
+                            <hr class="line-seprator">
+
+                            <h4>Asahi Service Company - Main Website</h4>
+                            <p><strong>Duration :</strong> July 2017 - September 2017 </p>
+                            <p><strong>Main Responsibility : </strong>Design and developed a website for ASC, a real estate company. The website allows the users to browse through the buildings and apartments of UR Housing Japan.</p>
+                            <p><strong>Technologies : </strong>php, HTML5, CSS3, jQuery, AJAX, Logo Design, UI Design, Photoshop, mysql</p>
+                            <p class="ref"><i class="fa fa-link"></i><a href="http://ur-asahiservice.com/" target="_blank"> Click here to view the website </a></p>
+
+                            <h4>Asahi Service Company - Admin Panel</h4>
+                            <p><strong>Duration :</strong> March 2017 - July 2017 </p>
+                            <p><strong>Main Responsibility : </strong>Design and developed an Admin panel website for ASC to display available apartments. The panel allows to add / delete apartments to ASC for easy browsing for their users. </p>
+                            <p><strong>Technologies : </strong>HTML5, CSS3, Bootstrap, Grid System, Git (version-control-system)</p>
+                            <p class="ref"><i class="fa fa-link"></i><a href="https://github.com/bajajDeeksha/ur-apartments"  target="_blank">Click to check code on GitHub</a></p>
+                            <p class="note">Kindly Note, The site can not be viewed due to security reasons.</p>
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Wedding Website -->
+    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Wedding Website</h2>
+                            <hr class="line-seprator">
+
+                            <p align="center">A wedding website for Nishyanth and Geetika.</p>
+                            <p><strong>Duration :</strong> October 2016 </p>
+
+                            <p><strong>Main Responsibility : </strong> To design and developed a wedding website for Nishyanth and Geetika. The website contains information about the bride and the groom, cermonies, RSVP form and gallery with the couple's happy pictures.</p>
+                            <p><strong>Technologies :</strong> jQuery, php, HTML5, CSS3, Bootstrap, UI Design, photoshop, AJAX</p>
+                            <p class="ref"><i class="fa fa-link"></i><a href="http://nishandgeet.com/" target="_blank"> Click here to view the website </a></p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- pelicamera -->
+    <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Pelicamera Photography</h2>
+                            <hr class="line-seprator">
+                            <p>Photographers Portfolio Website.</p>
+                            <p><strong>Duration :</strong> June 2016 </p>
+                            <p><strong>Main Responsibility : </strong>To design and develope a photographers portfolio. The website contains details about the photographer, galleries, testimonials from the clients, different packages details, and contact/booking forms for the customers. </p>
+                            <p><strong>Technologies :</strong> Javascript, jQuery, php, HTML5, CSS3, Bootstrap, UI Design</p>
+                            <p class="ref"><i class="fa fa-link"></i><a href="https://github.com/bajajDeeksha/pelicamera"  target="_blank">Click to check code on GitHub</a></p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- npcil -->
+    <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -809,17 +1020,17 @@
                             <h2> NPCIL - Kaiga </h2>
                             <hr class="line-seprator">
                             
-                            <p align="center">I finished this projects as a part of an Internship Program at <a href="http://www.npcil.nic.in" target="_blank"> NPCIL</a>.</p> 
-                            <p><strong>Duration :</strong> June 2012 - July 2012 </p>
+                            <p align="center">Finished this projects as a part of an Internship Program at <a href="http://www.npcil.nic.in" target="_blank"> NPCIL</a>.</p>
                             <h4>Online Application for "Need Base Training"</h4>
-                            <p> NPCIL, Nuclear Power Corporation of India Limited is a public sector organization register under Government of India. NPCIL is responsible for design, construction and operation of Nuclear Reactors.</p>
+                            <p><strong>Duration :</strong> June 2012 - July 2012 </p>
+                            <p>NPCIL, Nuclear Power Corporation of India Limited is a public sector organization register under Government of India. NPCIL is responsible for design, construction and operation of Nuclear Reactors.</p>
                             <p>I created a Module for their VPN webiste called "Online Need Base Training"</p>
                             <p><strong>Main Responsibility : </strong> </p>
                             <p class="tab">1. To create a module using which users can fill out the training form online, which would be then notified automatically to the concerned authorities for approval. This would then notify the Training Department Head to conduct the training.</p>
                             <p class="tab">2. The module allows user to check if their application is pending or approved.</p>
                             <p class="tab">3. The module allows user to check Training-programs conducted between 2 given dates.</p>
                             <p><strong>Technologies : </strong> ColdFusion, HTML, Microsoft Access</p>
-                            
+                            <p class="note">The code of this applications are strictly copyrighted &COPY; by the company.</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -827,7 +1038,8 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- cross lingual search engine -->
+    <div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -842,16 +1054,15 @@
                             <h2>Cross-Lingual Search Engine</h2>
                             <hr class="line-seprator">
                             
-                            <p align="center">I finished this projects as a part of my final year project at <a href="http://www.git.edu/" target="_blank"> KLS GIT</a>.</p> 
+                            <p align="center">Finished this projects as a part of my final year project at <a href="http://www.git.edu/" target="_blank"> KLS GIT</a>.</p>
                             <p><strong>Duration :</strong> February 2014 - June 2014 </p>
-                            
                             <p> This project provides cross-lingual information retrieval feature to the user. This feature is provided to the user through an extension. The extension provides an interface where the user can enter and retrieve documents in 4 Indian languages. The application can also provide the user with summary of each result in a pop-up box on mouse-hover.</p>
                             <p><strong>Main Responsibility : </strong> </p>
                             <p class="tab">1. To design an extension to provide CLIR mechanism.</p>
                             <p class="tab">2. The User can input query in any one of the four languages, and can obtain output in one or more languages.</p>
                             <p class="tab">3. Summarizes the information for each of the resulted links in pop-up box. .</p>
                             <p><strong>Technologies : </strong> Python, php, HTML5, jQuery, Google APIs</p>
-                            <p class="ref"><i class="fa fa-link"><a href="pdfile/CLIR_report.pdf"  target="_blank">Click here to view the project Report</a></i></p>
+                            <p class="ref"><i class="fa fa-link"></i><a href="pdfile/CLIR_report.pdf"  target="_blank">Click here to view the project report</a></p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -859,7 +1070,8 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- cloud server -->
+    <div class="portfolio-modal modal fade" id="portfolioModal13" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -873,16 +1085,11 @@
                         <div class="modal-body">
                             <h2>Survey  on  Cloud  Computing in Agricultural Development</h2>
                             <hr class="line-seprator">
-                            
-                            <p align="center">I finished this projects as a part of my final year project at <a href="http://www.git.edu/" target="_blank"> KLS GIT</a>.</p> 
-                            <p><strong>Duration :</strong> February 2014 - June 2014 </p>
-                            
-                            <p>Performed a survey on cloud computing in agricultural development and studied about agriculture -cloud which is based on MAD cloud architecture.</p>
-                            <p><strong>Survey Result : </strong> </p>
-                            <p class="tab"> Agriculture has traditionally been maintained by families and communities where the passing on the sharing of knowledge is regarded as very important. The accumulation and sharing of knowledge has resulted in better overall efficiency and productivity. Agriculture is the embodiment of a large amount of ancient knowledge If the leverage effects of IT can be developed, then we should be able to bring about a further leap in agriculture.</p>
-                            <p class="tab">It goes without saying that cloud computing can support this process. Instead, one might say that the mechanisum of cloud computing is highly suited to the task of handing down human knowledge to later generation.</p>
-                            <p class="tab">The above model bridges the information gap within and outside the nation. In Indian agriculture the suggested model is like the pilot project. This will definately have a positive impact in the over all economic development.</p>
-                            <p class="ref"><i class="fa fa-link"><a href="pdfile/AgriCloud_Report.pdf"  target="_blank">Click here to view the project Report</a></i></p>
+                            <p align="center">Finished this projects as a part of my final year project at <a href="http://www.git.edu/" target="_blank"> KLS GIT</a>.</p>
+                            <p> <strong>Duration :</strong> February 2014 - June 2014 </p>
+                            <p> <strong>Main Responsibility :</strong> Performed a survey on cloud computing in agricultural development and studied about agriculture -cloud which is based on MAD cloud architecture.</p>
+                            <p> <strong>Technologies :</strong> Cloud-computing, Documentation</p>
+                            <p class="ref"><i class="fa fa-link"></i> <a href="pdfile/AgriCloud_Report.pdf"  target="_blank">Click here to view the project report</a></p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -893,11 +1100,7 @@
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="js/classie.js"></script>
     <script src="js/cbpAnimatedHeader.js"></script>
@@ -905,12 +1108,105 @@
     <!-- javascript for carousel -->
     <script src="js/carousel.js"></script>
 
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
     <!-- Custom Theme JavaScript -->
     <script src="js/freelancer.js"></script>
+    <script src="js/slick.js"></script>
+
+    <script>
+        $('.center').slick({
+            centerMode: true,
+            infinite: true,
+            centerPadding: '60px',
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            arrows: true,
+            dots: true,
+            responsive: [
+                {
+                    breakpoint: 992,
+                    settings: {
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 850,
+                    settings: {
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 550,
+                    settings: {
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+
+        $('.center1').slick({
+            infinite: true,
+            centerPadding: '60px',
+            slidesToShow: 3,
+            arrows: true,
+            dots: true,
+            responsive: [
+                {
+                    breakpoint: 992,
+                    settings: {
+
+                        autoplay: true,
+                        autoplaySpeed: 2000,
+                        slidesToScroll: 1,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 850,
+                    settings: {
+                        slidesToShow: 3,
+                        autoplay: true,
+                        autoplaySpeed: 2000,
+                        slidesToScroll: 1,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 550,
+                    settings: {
+                        slidesToShow: 3,
+                        autoplay: true,
+                        autoplaySpeed: 2000,
+                        slidesToScroll: 1,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+    </script>
+
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-87388248-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments)};
+        gtag('js', new Date());
+
+        gtag('config', 'UA-87388248-2');
+    </script>
 
 </body>
 

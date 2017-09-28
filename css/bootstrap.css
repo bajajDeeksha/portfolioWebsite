@@ -9,7 +9,6 @@
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 html {
-    font-family: sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
 }
@@ -1086,7 +1085,7 @@ html {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 }
 body {
-    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', sans-serif !important;
     font-size: 15px;
     line-height: 1.42857143;
     color: #26231E;
@@ -1188,7 +1187,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', sans-serif !important;
     font-weight: 400;
     line-height: 1.1;
     color: inherit

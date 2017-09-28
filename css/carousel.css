@@ -8,6 +8,9 @@
 
 .testi-content {
     color: #3f3f3f;
+    max-width: 750px;
+    display: block;
+    margin:auto;
 }
 
 

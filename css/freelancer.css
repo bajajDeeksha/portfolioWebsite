@@ -1,13 +1,13 @@
-/*!
- * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
 body {
+    font-family: 'Roboto', sans-serif !important;
     overflow-x: hidden;
+    background-color: #E2D0E7;
 }
-
+.bg-white {
+    background-color: #fff ;
+}
 p {
     font-size: 20px;
 }
@@ -31,8 +31,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'open sans';
-    font-weight: 500;
+    font-weight: 300;
 }
 
 hr.line-separator{
@@ -60,8 +59,7 @@ hr.line-separator{
 
 .navbar {
     text-transform: uppercase;
-    font-family: Montserrat,"Josefin Sans",Helvetica,Arial,sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     font-size: 19px;
 }
 
@@ -83,8 +81,6 @@ hr.line-separator{
 }
 
 section {
-    margin-top: 40px;
-    margin-bottom: 20px;
     padding: 90px 0;
 }
  
@@ -98,7 +94,7 @@ section h2 {
 section h3 {
     margin-bottom: 20px;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 200;
     line-height: 1.4;
     text-align: center;
 }
@@ -107,7 +103,7 @@ section#page-top h4 {
     color: #7166A6;
     margin-bottom: 20px;
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 300;
     line-height: 1.4;
     text-align: center;
   
@@ -116,14 +112,11 @@ section#page-top h4 {
 section#page-top p {
     text-align: left;
     padding-left: 90px;
-    font-weight: 400;
-    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 200;
 }
 
 section#aboutme {
-    background: linear-gradient(rgba(113, 102, 166, 0.80), 
-                                rgba(113, 102, 166, 0.80)),
-                url(http://themes.startbootstrap.com/spectrum-v1.2.0/assets/img/demo-bgs/freelancer-cta.jpg); 
+    background: linear-gradient(rgba(113, 102, 166, 0.80), rgba(113, 102, 166, 0.80)), url(http://themes.startbootstrap.com/spectrum-v1.2.0/assets/img/demo-bgs/freelancer-cta.jpg);
     background-position: 50% 0px;
     background-attachment: fixed;
 }
@@ -144,8 +137,7 @@ section#abilites {
 }
 
 section#education p {
-    font-weight: 400;
-    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 100;
     font-size: 18px;
     text-align: left;
 }
@@ -153,23 +145,29 @@ section#education p {
 section#abilites h4{
     color: #7166A6;
     margin-bottom: 20px;
-    font-size: 36px;
-    font-weight: 500;
+    font-size: 30px;
+    font-weight: 100;
     line-height: 1.4;
 }
+
 .highlight {
-    font-weight: 400;
+    font-weight: 100;
     letter-spacing: 0.5px;  
 }
+.stars {
+    letter-spacing: 3px;
+}
 .highlight:hover {
-    font-weight: 700;
-    letter-spacing: 4px;
-    background-color: #ecdcf0;
+     font-weight: 700;
+     letter-spacing: 3px !important;
+     background-color: #ecdcf0;
+ }
+.highlight:hover .stars{
+    letter-spacing: 5px !important;
 }
 
 section#education p {
     font-weight: 400;
-    font-family: 'Open Sans', sans-serif !important;
     font-size: 20px;
     text-align: left;
 }
@@ -185,10 +183,8 @@ section#contact h3 {
 section#contact p {
     color: #fff;
     font-weight: 400;
-    font-family: 'Open Sans', sans-serif !important;
 }
 section#refernce p {
-    font-family: 'Open Sans', sans-serif !important;
     line-height: 24px;
     color: #666;
     font-size: 20px;
@@ -213,7 +209,7 @@ section#refernce p {
 
 #portfolio .portfolio-item {
     right: 0;
-    margin: 0 0 15px;
+    margin: 15px 0 15px;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -281,7 +277,7 @@ section#refernce p {
 
 @media(min-width:767px) {
     #portfolio .portfolio-item {
-        margin: 0 0 30px;
+        margin: 30px 0 30px;
     }
 }
 
@@ -456,7 +452,6 @@ footer .footer-below {
 }
 .portfolio-modal .modal-content p {
     font-weight: 400;
-    font-family: 'Open Sans', sans-serif !important;
     font-size: 20px;
     text-align: left!important;
 }
@@ -520,4 +515,39 @@ footer .footer-below {
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
+}
+.experience-head {
+    font-size:25px;
+    text-align: left;
+    color: #756DA6;
+}
+
+.slick-prev:before, .slick-next:before {
+    color:#756DA6 !important;
+}
+
+.center .slick-slide {
+    transform: scale(1);
+    opacity: 0.3;
+    transition: .3s ease-in-out all;
+}
+.center .slick-slide.slick-center {
+    opacity: 1;
+    transform: scale(1.08);
+}
+.center{
+    padding:10px 0;
+}
+.fa-color {
+    color:#756DA6 !important;
+}
+.fa-uncolor {
+    color:#b2b2b2 !important;
+}
+.fa-link {
+    margin-right:10px;
+}
+
+strong {
+    font-weight: 900;
 }
